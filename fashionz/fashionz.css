@@ -1,0 +1,160 @@
+body{
+    background-color: #2b2c31;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+}
+.maincontainer{
+    width: 90%;
+    margin: 5% auto 150px;
+}
+header{
+    margin-bottom: 40px;
+}
+
+.icon-out{
+position: absolute;
+right: 12.5%;
+top: 7%;
+display: inline-block;
+height: 60px;
+width:60px;
+padding: 10px;
+}
+
+.maincontainer .icon{
+height: 60px;
+width:60px;
+border: solid;
+border-radius: 50%;
+display: inline-block;
+background-color: #d9d9d9;
+position: absolute;
+}
+
+.heading{
+    padding-left: 30px;
+}
+.dropd{
+border: solid;
+position: absolute;
+right: 12%;
+top:15%;
+display: none;
+width: 250px;
+z-index: 2;
+padding: 15px;
+background-color: white;
+font-weight: 600;
+
+}
+
+.dropd div{
+padding: 11px 10px;
+background-color: white;
+right: 20px;
+}
+
+.dropd a{
+text-decoration: none;
+color: black;
+}
+
+.dropcontainer:hover .dropd{
+display: inline-block;
+}
+/* End of header */
+
+.fashion-content{
+    /* display: inline-block; */
+    /* position: relative; */
+    width: 100%;
+}
+.card-container{
+    /* position: absolute; */
+    width: 20%;
+    height: 500px;
+    display: inline-block;
+    /* margin-right: 30px; */
+    padding: 24px;
+}
+.dress-container{
+    background-color: #232429;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.star{
+    position: absolute;
+    width:25px;
+    right:15px;
+    top:15px;
+}
+.size-icon{
+    position: absolute;
+    background-color: #87b181;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    bottom: -22px;
+    right: 20px;
+}
+.size-font{
+    /* padding: 0px 16px 0px; */
+    position: absolute;
+    top: 11px;
+    left: 16px;
+    font-weight: 500;
+    font-size: 23px;
+}
+.clothimg{
+    position: absolute;
+    width: 90px;
+    top: 80px;
+    right: 54%;
+}
+
+.cloth-name{
+    color: white;
+    margin-bottom: 4px;
+    font-size: 24px;
+}
+.cloth-rate{
+    color: #ababab;
+    font-size: 20px;
+}
+
+button{
+    color:#ababab;
+    background-color: #2b2c31;
+    border:solid;
+    border-color: #ababab;
+    padding: 10px 20px;
+    margin: 15px 0px;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: #87b181;
+    color:#232429;
+}
+
+/* Starting of footer section */
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.footer div{
+    display: inline-block;
+    padding: 45px;
+}
+/* Endinf of footer section */
