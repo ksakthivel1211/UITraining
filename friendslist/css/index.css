@@ -36,7 +36,7 @@
 /* End :: Sub-container */
 
 /* Start :: image-container */
-.images{
+.img-container img{
     width: 75px;
     height: 75px;
     border-radius: 50%;
@@ -44,14 +44,14 @@
 /* End :: image-container */
 
 /* Start :: Name-container */
-.name-container{
+.detail-container h6{
     font-size: 20px;
     font-weight: 400;
 }
 /* End :: Name-container */
 
 /* Start :: Mail-container */
-.mail-container{
+.detail-container p{
     margin-top: 2px;
     font-weight: 100;
 }

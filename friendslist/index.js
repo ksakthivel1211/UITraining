@@ -6012,7 +6012,7 @@ for(let i=0 ;i<friend_list.length-1;i++)
 
     // Start :: Image-container
     let logo = document.createElement("img");
-    logo.setAttribute("class","images")
+    logo.alt=friend_list[i].first_name+" "+friend_list[i].last_name;
     logo.setAttribute("src",friend_list[i].img);
     img_container.appendChild(logo);
     // End :: Image-container
@@ -6022,13 +6022,11 @@ for(let i=0 ;i<friend_list.length-1;i++)
     details_container.setAttribute("class","details-container");
 
     let name_container = document.createElement("h6");
-    name_container.setAttribute("class","name-container");
     name_container.innerHTML= friend_list[i].first_name+" "+friend_list[i].last_name;
 
     details_container.appendChild(name_container);
 
     let mail_container = document.createElement("p");
-    mail_container.setAttribute("class","mail-container");
     mail_container.innerHTML= friend_list[i].email;
 
     details_container.appendChild(mail_container);
