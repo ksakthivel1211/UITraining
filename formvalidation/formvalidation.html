@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+
+    <link href="./css/index.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Start :: Header -->
+    <header>
+        <div class="page-logo">
+            <img src="./assets/Sirius_CDW_Cobranded_PMS2747.svg" alt="sirius-logo" />
+        </div>
+    </header>
+
+    <!-- End :: Header -->
+
+    <!-- Start :: Main  -->
+    <main class="mainContainer">
+
+        <!-- Start :: Form container-->
+        <section class="formContainer">
+            <form action="" class="page-form">
+                <h3 class="page-heading">BILLING DETAILS</h3>
+
+                <!-- Start :: Name-Container -->
+                <div class="name-section">
+                    <div class="subContainer">
+                        <label for="first-name" id="first-name-label" class="form-label">First Name</label>
+                        <input type="text" id="first-name" class="form-input" name="First Name"/>
+                        <div class="form-label-error"></div>
+                    </div>
+                    <div class="subContainer">
+                        <label for="last-name" id="last-name-label" class="form-label">
+                            Last Name
+                        </label>
+                        <input type="text" id="last-name" class="form-input" name="Last Name"/>
+                        <div class="form-label-error"></div>
+                    </div>
+                </div>
+                <!-- End :: Name-Container -->
+
+                <!-- Start :: Email-container -->
+                <div class="email-section">
+                    <div class="subContainer">
+                        <label for="email" id="email-label" class="form-label">Email Address</label>
+                        <input type="email" id="email" class="form-input" name="Email Address"/>
+                        <div class="form-label-error"></div>
+                    </div>
+                </div>
+                <!-- End :: Email-container -->
+
+                <!-- Start :: Contact-container -->
+                <div class="contact-section">
+                    <div class="subContainer">
+
+                        <label for="contact" id="contact-label" class="form-label">
+                            Contact Number
+                        </label>
+
+                        <input type="number" id="contact" class="form-input" name="Contact Number"/>
+                        <div class="form-label-error"></div>
+                    </div>
+                </div>
+                <!-- End :: Contact-container -->
+
+                <!-- Start :: Pincode-container -->
+                <div class="pincode-section">
+                    <div class="subContainer">
+                        <label for="pincode" id="pincode-label" class="form-label">PIN Code</label>
+                        <input type="number" id="pincode" class="form-input" name="PIN Code"/>
+                        <div class="form-label-error"></div>
+                    </div>
+                </div>
+
+                <!-- End :: Pincode-container -->
+                <h3 class="page-heading page-heading-payment">PAYMENT DETAILS</h3>
+
+                <!-- Start :: Card-container -->
+                <div class="card-section">
+                    <div class="subContainer">
+                        <label for="card-number" id="card-number-label" class="form-label">Card Number</label>
+                        <input type="number" id="card-number" class="form-input" name="Card Number"/>
+                        <div class="form-label-error"></div>
+                    </div>
+                </div>
+                <!-- End :: Card-container -->
+
+                <!-- Start :: Card-Details Container -->
+                <div class="card-details-section">
+                    <div class="subContainer">
+                        <label for="card-expiry-year" id="card-expiry-label" class="form-label">Card Expiry (Year)</label>
+                        <input type="number" id="card-expiry-year" class="form-input" name="Card Expiry"/>
+                        <div class="form-label-error"></div>
+                    </div>
+                    <div class="subContainer">
+                        <label for="cvv" id="cvv-label" class="form-label">CVV</label>
+                        <input type="number" id="cvv" class="form-input" name="CVV"/>
+                        <div class="form-label-error"></div>
+                    </div>
+                </div>
+                    <!-- End :: Card-Details Container -->
+                </div>
+
+                <!-- Start :: Payment Button -->
+                <div class="payment-btn">
+                    <input type="submit" value="COMPLETE PAYMENT" id="submit-btn" />
+                </div>
+                <!-- End :: Payment Button -->
+
+            </form>
+        </section>
+        <!-- End :: Form Container-->
+
+    </main>
+    <!-- End :: Main -->
+
+    <script src="./formvalidation.js"></script>
+
+</body>
+
+</html>
