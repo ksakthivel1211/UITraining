@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* start :: maincontainer */
+.mainContainer {
+  background-color: #f5f5f5;
+}
+
+/* End :: maincontainer */
+
+/* start :: Header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px #00000029;
+  z-index: 10;
+}
+
+.headerContainer {
+  max-width: 1300px;
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* End :: Header */
+
+
+
+
+.page-title {
+  font-size: 20px;
+}
+
+/* Page Profile */
+.profileContainer {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.profileContainer h6 {
+  margin-right: 10px;
+  font-weight: 100;
+}
+
+/* Page Profile Image */
+.profileContainer img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+/* Main Content Wrapper */
+.pageContents {
+  margin: 0 auto;
+  margin-top: 70px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 60%;
+  max-width: 1300px;
+}
+
+/* Start :: VideoContainer */
+
+.projects-section {
+  width: 74%;
+}
+
+.video-element {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.video-heading {
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.videoDetails {
+  padding-bottom: 20px;
+  text-align: justify;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+/* .videoDetails>div {
+  width: 100%;
+  display: inline-block;
+  height: 2px;
+  background-color: #dddddd;
+} */
+
+.big-line{
+  width: 100%;
+  display: inline-block;
+  height: 2px;
+  background-color: #dddddd;
+}
+
+/* End :: VideoContainer */
+
+/* Start :: commentContainer */
+.comments-heading {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.comment-card {
+  display: flex;
+  margin: 18px 0;
+}
+
+.comment-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.imageContainer {
+  padding-right: 15px;
+}
+
+.card-heading {
+  font-size: 11px;
+}
+
+.card-description {
+  font-size: 11px;
+  text-align: justify;
+  font-weight: 100;
+}
+
+/* End :: commentContainer */
+
+/* Upcoming Projects */
+
+.upcoming-projects {
+  width: 24%;
+}
+
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectImage {
+  margin: 6px 0;
+  width: 100%;
+}
+
+.projectImage img {
+  width: 100%;
+}
+
+/* Start :: ChatIcon */
+.chatIcon {
+  position: fixed;
+  right: 60px;
+  bottom: 38.5px;
+  width: 70px;
+  height: 70px;
+  background-color: #c432ae;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatIcon i {
+  color: #ffffff;
+  font-size: 28px;
+}
+
+/* End ::ChatIcon */
+
+/* Start :: Footer */
+.page-footer-area {
+  background-color: #222222;
+  width: 100%;
+  height: 77px;
+}
+
+.footer-content {
+  max-width: 1300px;
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* End :: Footer */
+
+@media only screen and (max-width: 767px) {
+
+  html {
+    font-size: 10px;
+  }
+
+  /* Header */
+  .headerContainer {
+    width: 95%;
+  }
+
+  /* Main Container */
+  .pageContents {
+    width: 95%;
+  }
+
+  .profileContainer h6 {
+    display: none;
+  }
+
+  .projects-section {
+    width: 100%;
+  }
+
+  /* Upcoming Projects */
+
+  .upcoming-projects {
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer-content {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .rights-section {
+    font-size: 17px;
+  }
+
+  .footer-title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  /* ChatIcon */
+  .chatIcon {
+    width: 60px;
+    height: 60px;
+    right: 15px;
+  }
+
+  .chatIcon i {
+    font-size: 25px;
+  }
+  .separator{
+    margin-bottom: 15px;
+    border-bottom: solid #dddddd 2px;
+  }
+}
