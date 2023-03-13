@@ -20,8 +20,7 @@ $.when(
     videoDescription.append(video.description);
     $(".movie-area").append(videoDescription);
 
-
-
+    let fragmentComment = $(document.createDocumentFragment());
     for (const comment of video.comments) {
 
     const commentCard = $(`<div class=comment-card></div>`);
@@ -43,20 +42,21 @@ $.when(
     commentCard.append(commentImageWrapper);
     commentCard.append(commentText);
 
-    $(".comments-area").append(commentCard);
+    fragmentComment.append(commentCard);
     }
+    $(".comments-area").append(fragmentComment);
 
     const postersWrapper = $(`<div class=projectContainer></div>`);
-    let fragment = $(document.createDocumentFragment());
+    let fragmentPoster = $(document.createDocumentFragment());
 
     for (const project of poster){
 
         const posterImgWrapper = $(`<div class=projectImage></div>`);
         const posterImage = $(`<img src=${project.imageUrl}></img>`);
         posterImgWrapper.append(posterImage);
-        fragment.append(posterImgWrapper);
+        fragmentPoster.append(posterImgWrapper);
     }
-    postersWrapper.append(fragment);
+    postersWrapper.append(fragmentPoster);
     $(".upcoming-projects").append(postersWrapper);
 
 })
