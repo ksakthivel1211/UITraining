@@ -39,13 +39,11 @@
 /* End :: Header */
 
 
-
-
+/* Start :: profile-section */
 .page-title {
   font-size: 20px;
 }
 
-/* Page Profile */
 .profileContainer {
   display: flex;
   align-items: center;
@@ -57,14 +55,14 @@
   font-weight: 100;
 }
 
-/* Page Profile Image */
 .profileContainer img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
 }
+/* End :: profile-section */
 
-/* Main Content Wrapper */
+/* Start :: Main-Container */
 .pageContents {
   margin: 0 auto;
   margin-top: 70px;
@@ -75,6 +73,7 @@
   width: 60%;
   max-width: 1300px;
 }
+/* End :: Main-Container */
 
 /* Start :: VideoContainer */
 
@@ -98,13 +97,6 @@
   font-weight: 100;
   font-size: 12px;
 }
-
-/* .videoDetails>div {
-  width: 100%;
-  display: inline-block;
-  height: 2px;
-  background-color: #dddddd;
-} */
 
 .big-line{
   width: 100%;
@@ -217,12 +209,10 @@
     font-size: 10px;
   }
 
-  /* Header */
   .headerContainer {
     width: 95%;
   }
 
-  /* Main Container */
   .pageContents {
     width: 95%;
   }
@@ -241,7 +231,7 @@
     width: 100%;
   }
 
-  /* Footer */
+  /* Start :: Footer */
   .footer-content {
     width: 95%;
     display: flex;
@@ -257,8 +247,9 @@
     font-size: 24px;
     font-weight: 600;
   }
+  /* End :: Footer */
 
-  /* ChatIcon */
+  /* Start :: ChatIcon */
   .chatIcon {
     width: 60px;
     height: 60px;
@@ -268,6 +259,7 @@
   .chatIcon i {
     font-size: 25px;
   }
+   /* End :: ChatIcon */
   .separator{
     margin-bottom: 15px;
     border-bottom: solid #dddddd 2px;
