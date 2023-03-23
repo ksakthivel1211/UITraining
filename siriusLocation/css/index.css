@@ -16,15 +16,18 @@ header{
     margin: 2% auto;
 }
 /* End :: header */
+
 /* Start :: hederLogo */
 .logo{
     width: 250px;
     margin: auto;
 }
+/* End :: hederLogo */
 
+/* Start :: All-Tabs */
 #tabs{
     background-color: #f5f5f5;
-    max-width: 45%;
+    max-width: 42%;
     margin: 0px auto 60px;
     position: relative ;
     padding: 3px 40px;
@@ -60,7 +63,17 @@ header{
 #nav{
     margin-left: 10px;
 }
+/* Start :: All-Tabs */
 
+/* Start :: tab-1 */
+#tabs-1 p{
+    background-color: #ffffff;
+    color: #222222;
+    line-height: 21px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 300;
+}
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
     border: 1px solid #c5c5c5;
     background: #f6f6f6;
@@ -74,6 +87,9 @@ header{
     font-weight: normal;
     color: #ffffff;
 }
+/* End :: tab-2 */
+
+/* Start :: tab-2 */
 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, a.ui-button, a:link.ui-button, a:visited.ui-button, .ui-button {
     text-decoration: none;
     color: #ffffff;
@@ -81,32 +97,21 @@ header{
 #ui-id-4, #ui-id-6, #ui-id-8, #ui-id-10{
     background-color: #838db6;
 }
-
-
-
-#tabs-1 p{
-    background-color: #ffffff;
-    color: #222222;
-    line-height: 21px;
-    margin-bottom: 30px;
-    font-size: 14px;
-    font-weight: 300;
-}
-
-
 .ui-accordion .ui-accordion-content {
     padding: 1em 2.2em;
     border-top: 0;
     overflow: auto;
-    /* height: 200px; */
 }
+
 #accordian{
  margin-bottom: 100px;
 }
 
+/* End :: tab-2 */
+
 /* Start :: tab-3 */
 td>img{
-    max-width: 30px;
+    max-width: 25px;
     border-radius: 50%;
 }
 table{
@@ -118,14 +123,9 @@ table{
 td{
     text-align: center;
     padding: 5px;
+    font-size: 12px;
+    font-weight: 100;
 }
-/* .table .row{
-    height: 30px;
-} */
-/* tr{
-    padding: 80px;
-    height: 10px;
-} */
 #tabs-3{
     height: 600px;
     overflow: scroll;
