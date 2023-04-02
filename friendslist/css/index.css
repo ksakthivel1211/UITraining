@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    color: white;
+}
+/* Start :: Header */
+.header{
+    padding: 35px;
+    background-color: #3c1d68;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+/* End :: Header */
+
+/* Start :: Main-container */
+#main-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 90%;
+    margin: 60px auto;
+}
+/* End :: Main-container */
+
+/* Start :: Sub-container */
+.sub-container{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    width: 31%;
+    padding: 15px 12px;
+    background-color: #4b65b4;
+}
+/* End :: Sub-container */
+
+/* Start :: image-container */
+.img-container img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+/* End :: image-container */
+
+/* Start :: Name-container */
+.detail-container h6{
+    font-size: 20px;
+    font-weight: 400;
+}
+/* End :: Name-container */
+
+/* Start :: Mail-container */
+.detail-container p{
+    margin-top: 2px;
+    font-weight: 100;
+}
+/* End :: Mail-container */
